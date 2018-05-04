@@ -49,6 +49,7 @@ class GeneralController extends SymfonyController
     {
         $request = $this->requestTransformer->transform($symfonyRequest);
         $response = $this->action->makeAction($request);
+
         return $this->responseTransformer->transform($response);
     }
 }
