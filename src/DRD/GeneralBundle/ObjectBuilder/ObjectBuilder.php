@@ -27,7 +27,7 @@ class ObjectBuilder implements ObjectBuilderInterface
     {
         assert(is_object($object));
 
-        $form = $this->formFactory->create($objectFormType, $object, ['csrf_protection' => false]);
+        $form = $this->formFactory->create($objectFormType, $object);
 
         $form->submit($data);
 
