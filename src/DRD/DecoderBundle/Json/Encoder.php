@@ -2,9 +2,9 @@
 
 namespace DRD\DecoderBundle\Json;
 
-use DRD\DecoderBundle\Common\ArrayToStringCoderInterface;
+use DRD\DecoderBundle\Common\ArrayToStringEncoderInterface;
 
-class Encoder implements ArrayToStringCoderInterface
+class Encoder implements ArrayToStringEncoderInterface
 {
     /**
      * {@inheritdoc}
