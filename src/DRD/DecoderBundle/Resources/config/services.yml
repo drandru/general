@@ -1,0 +1,21 @@
+# Services
+services:
+  # Encoder
+    drd.coder.encoder.fake:
+        class: DRD\DecoderBundle\Fake\Encoder
+
+    drd.coder.encoder.json:
+        class: DRD\DecoderBundle\Json\Encoder
+
+    drd.coder.encoder.serialize:
+        class: DRD\DecoderBundle\Serialize\Encoder
+
+  # Decoder
+    drd.coder.decoder.fake:
+        class: DRD\DecoderBundle\Fake\Decoder
+
+    drd.coder.decoder.json:
+        class: DRD\DecoderBundle\Json\Decoder
+
+    drd.coder.decoder.serialize:
+        class: DRD\DecoderBundle\Serialize\Decoder
