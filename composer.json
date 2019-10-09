@@ -1,15 +1,17 @@
 {
     "name": "drandru/general",
-    "type": "symfony-bundle",
+    "type": "library",
+    "description": "skeleton of symfony projects",
     "autoload": {
-        "psr-4": { "": "src/" }
+        "psr-4": {
+          "DRD\\GeneralBundle\\": "src/DRD/GeneralBundle"
+        }
     },
     "require": {
-        "php": ">=7.1",
-        "guzzlehttp/guzzle": "^6.3",
-        "sensio/framework-extra-bundle": "^5.1",
-        "symfony/monolog-bundle": "^3.1",
-        "symfony/framework-bundle": "^4.0"
+        "php": ">=7.0",
+        "symfony/framework-bundle": "4.3.*",
+        "symfony/form": "^4.3",
+        "symfony/validator": "^4.3"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^3.0",
