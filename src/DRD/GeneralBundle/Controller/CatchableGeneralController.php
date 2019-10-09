@@ -34,6 +34,7 @@ class CatchableGeneralController extends GeneralController
 
     /**
      * {@inheritdoc}
+     * @throws Exception
      */
     public function usualAction(SymfonyRequest $symfonyRequest): SymfonyResponse
     {

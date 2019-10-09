@@ -11,7 +11,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 class GeneralExtension extends Extension
 {
-    const CONFIG_DIRECTORY = __DIR__ . '/../Resources/config';
+    const CONFIG_DIRECTORY = __DIR__ . '/../Resources/config/auto';
 
     /**
      * {@inheritdoc}
