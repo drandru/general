@@ -8,6 +8,7 @@
     }
   },
   "require": {
+    "ext-dom": "*",
     "php": ">=7.0",
     "symfony/framework-bundle": "4.3.*",
     "symfony/form": "^4.3",

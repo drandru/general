@@ -13,7 +13,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
  * Class GeneralExtension
  * @package DRD\GeneralBundle\DependencyInjection
  */
-class GeneralExtension extends Extension
+abstract class GeneralExtension extends Extension
 {
     const CONFIG_DIRECTORY = __DIR__ . '/../Resources/config/auto';
 

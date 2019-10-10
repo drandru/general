@@ -26,10 +26,10 @@ class CatchableGeneralController extends GeneralController
      * @param FactoryInterface $responseFactory
      */
     public function __construct(
-        RequestTransformerInterface $requestTransformer,
-        ActionInterface $action,
-        ResponseTransformerInterface $responseTransformer,
-        FactoryInterface $factory
+        RequestTransformerInterface $requestTransformer
+        , ActionInterface $action
+        , ResponseTransformerInterface $responseTransformer
+        , FactoryInterface $factory
     ) {
         parent::__construct($requestTransformer, $action, $responseTransformer);
 

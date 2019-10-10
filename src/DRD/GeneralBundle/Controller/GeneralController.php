@@ -36,9 +36,9 @@ class GeneralController extends AbstractController
      * @param ResponseTransformerInterface $responseTransformer
      */
     public function __construct(
-        RequestTransformerInterface $requestTransformer,
-        ActionInterface $action,
-        ResponseTransformerInterface $responseTransformer
+        RequestTransformerInterface $requestTransformer
+        , ActionInterface $action
+        , ResponseTransformerInterface $responseTransformer
     ) {
         $this->requestTransformer = $requestTransformer;
         $this->action = $action;
