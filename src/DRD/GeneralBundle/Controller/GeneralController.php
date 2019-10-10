@@ -9,6 +9,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 
+/**
+ * Class GeneralController
+ * @package DRD\GeneralBundle\Controller
+ */
 class GeneralController extends AbstractController
 {
     /**

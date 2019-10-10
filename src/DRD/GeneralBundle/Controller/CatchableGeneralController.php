@@ -10,6 +10,10 @@ use Exception;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 
+/**
+ * Class CatchableGeneralController
+ * @package DRD\GeneralBundle\Controller
+ */
 class CatchableGeneralController extends GeneralController
 {
     /**

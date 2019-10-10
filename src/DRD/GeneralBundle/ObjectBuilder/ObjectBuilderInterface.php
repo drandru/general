@@ -2,6 +2,10 @@
 
 namespace DRD\GeneralBundle\ObjectBuilder;
 
+/**
+ * Interface ObjectBuilderInterface
+ * @package DRD\GeneralBundle\ObjectBuilder
+ */
 interface ObjectBuilderInterface
 {
     /**

@@ -5,6 +5,10 @@ namespace DRD\GeneralBundle\ObjectBuilder;
 use Symfony\Component\Form\FormFactory;
 use Symfony\Component\Form\FormFactoryInterface;
 
+/**
+ * Class ObjectBuilder
+ * @package DRD\GeneralBundle\ObjectBuilder
+ */
 class ObjectBuilder implements ObjectBuilderInterface
 {
     /**

@@ -4,9 +4,15 @@ namespace DRD\GeneralBundle\DateTime;
 
 use DateTime as WithinDateTime;
 
+/**
+ * Class DateTime
+ * @package DRD\GeneralBundle\DateTime
+ */
 class DateTime extends WithinDateTime
 {
     const FORMAT_DATETIME = 'Y-m-d H:i:s';
+
+    const FORMAT_DATETIME_SIMPLE = 'YmdHis';
 
     const MINUTE_TIMESATMP = 60; // 60
     const HOUR_TIMESATMP = 3600; // 60*60

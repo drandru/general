@@ -9,6 +9,10 @@ use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpFoundation\Tests\File\FakeFile;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
+/**
+ * Class GeneralExtension
+ * @package DRD\GeneralBundle\DependencyInjection
+ */
 class GeneralExtension extends Extension
 {
     const CONFIG_DIRECTORY = __DIR__ . '/../Resources/config/auto';

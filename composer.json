@@ -1,20 +1,20 @@
 {
-    "name": "drandru/general",
-    "type": "library",
-    "description": "skeleton of symfony projects",
-    "autoload": {
-        "psr-4": {
-          "DRD\\GeneralBundle\\": "src/DRD/GeneralBundle"
-        }
-    },
-    "require": {
-        "php": ">=7.0",
-        "symfony/framework-bundle": "4.3.*",
-        "symfony/form": "^4.3",
-        "symfony/validator": "^4.3"
-    },
-    "require-dev": {
-        "symfony/phpunit-bridge": "^3.0",
-        "phpunit/phpunit": "^5.0"
+  "name": "drandru/general",
+  "type": "library",
+  "description": "Skeleton of symfony projects",
+  "autoload": {
+    "psr-4": {
+      "DRD\\GeneralBundle\\": "src/DRD/GeneralBundle"
     }
+  },
+  "require": {
+    "php": ">=7.0",
+    "symfony/framework-bundle": "4.3.*",
+    "symfony/form": "^4.3",
+    "symfony/validator": "^4.3"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^3.0",
+    "phpunit/phpunit": "^5.0"
+  }
 }

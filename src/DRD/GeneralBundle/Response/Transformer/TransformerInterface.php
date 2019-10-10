@@ -5,6 +5,10 @@ namespace DRD\GeneralBundle\Response\Transformer;
 use DRD\GeneralBundle\Response\ResponseInterface;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 
+/**
+ * Interface TransformerInterface
+ * @package DRD\GeneralBundle\Response\Transformer\
+ */
 interface TransformerInterface
 {
     /**

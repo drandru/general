@@ -6,6 +6,10 @@ use DRD\GeneralBundle\Exception\Transformer\TransformerInterface;
 use Exception;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
+/**
+ * Interface FactoryInterface
+ * @package DRD\GeneralBundle\Exception\Factory
+ */
 interface FactoryInterface
 {
     /**
